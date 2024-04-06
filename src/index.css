@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: poppins;
+    src: url("./assets/Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+
+@layer utilities {
+    .popLight {
+        font-family: 'poppins, system-ui';
+    }
+
+    .popBold {
+        font-family: 'poppins';
+    }
+}
+
+
+
+.nepalDiv {
+    display: grid;
+    grid-template-columns: 25%, 50%, 25%, ;
+
+}
