@@ -7,6 +7,10 @@
     src: url("./assets/Fonts/Poppins/Poppins-Regular.ttf");
 }
 
+@font-face {
+    font-family: bodoni;
+    src: url("./assets/Fonts/Bodoni_Moda/bodoniModa.ttf");
+}
 
 @layer utilities {
     .popLight {
@@ -15,6 +19,14 @@
 
     .popBold {
         font-family: 'poppins';
+    }
+
+    .text-poppins {
+        font-family: poppins;
+    }
+
+    .text-bodoni {
+        font-family: bodoni;
     }
 }
 
