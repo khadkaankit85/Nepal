@@ -6,6 +6,8 @@ import lumbini from "../assets/Images/lumbini.jpg"
 import swambhu from "../assets/Images/swambhu.jpg"
 import swambhu2 from "../assets/Images/swambhu2.jpg"
 import kumari from "../assets/Images/kumari.jpg"
+import bkt from "../assets/Images/bkt.jpg"
+
 const Home = () => {
     return (
         <>
@@ -84,7 +86,7 @@ const Home = () => {
             </section>
 
             <div className="overflow-hidden transition-transform  duration-1000 absolute">
-                <img src="src/assets//Images/bkt.jpg" alt="Bhaktapur" className="w-full h-full object-contain scale-1 mt-4 translate-y-11 md:translate-y-20" loading="lazy" />
+                <img src={bkt} alt="Bhaktapur" className="w-full h-full object-contain scale-1 mt-4 translate-y-11 md:translate-y-20" loading="lazy" />
                 <img onClick={() => { window.location = "#top" }} src="src\assets\Images\toTop.svg" alt="back to top" className="relative w-10 md:w-20 left-[50vw] bottom-4 md:bottom-11" />
             </div>
 
