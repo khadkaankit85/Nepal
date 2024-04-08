@@ -1,5 +1,11 @@
 import Navbar from "../components/Navbar"
-
+import mountain from "../assets/Images/mountain.jpg"
+import scene1 from "../assets/Images/scene1.jpg"
+import video1 from "../assets/Videos/video1.mp4"
+import lumbini from "../assets/Images/lumbini.jpg"
+import swambhu from "../assets/Images/swambhu.jpg"
+import swambhu2 from "../assets/Images/swambhu2.jpg"
+import kumari from "../assets/Images/kumari.jpg"
 const Home = () => {
     return (
         <>
@@ -17,7 +23,7 @@ const Home = () => {
 
 
             <div className="overflow-hidden">
-                <img src="src/assets//Images/mountain.jpg" alt="mountain" className="w-full h-full object-contain scale-1 " loading="lazy" />
+                <img src={mountain} alt="mountain" className="w-full h-full object-contain scale-1 " loading="lazy" />
             </div>
             <div className=" text-bodoni h-[60vh] w-[calc(100vw-2rem)] md:text-5xl font-medium flex justify-center items-center text-2xl  ">
                 <h4 className="p-2">Nepal is a landlocked country</h4>
@@ -26,14 +32,14 @@ const Home = () => {
 
             <section className="flex flex-col lg:flex-row bg-[#f7f7f7]  md:flex-col">
                 <aside className="lg:w-[48vw]  lg:h-[80vh]  md:h-[48vh] md:w-full: ">
-                    <img src="src\assets\Images\scene1.jpg" alt="temple" className="w-full h-full object-cover " loading="lazy" />
+                    <img src={scene1} alt="temple" className="w-full h-full object-cover " loading="lazy" />
                 </aside>
                 <aside className=" h-[48vh] lg:w-[48vw]  lg:h-[80vh] md:w-full flex items-center justify-center text-poppins p-10 ">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione distinctio mollitia exercitationem amet sed, incidunt quaerat quae nemo eligendi! Omnis!
                 </aside>
             </section>
 
-            <video src="src\assets\Videos\video1.mp4" loop muted preload="none" autoPlay className="my-10 overflow-hidden" />
+            <video src={video1} loop muted preload="none" autoPlay className="my-10 overflow-hidden" />
 
             <div className=" text-bodoni h-[70vh] w-[calc(100vw-2rem)] text-xl md:text-3xl font-medium flex justify-center items-center mx-auto my-16 lg:text-4xl ">
                 <h4 className="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod saepe quis optio rerum tempore quibusdam esse inventore deleniti molestias blanditiis!</h4>
@@ -45,13 +51,13 @@ const Home = () => {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione distinctio mollitia exercitationem amet sed, incidunt quaerat quae nemo eligendi! Omnis!
                 </aside>
                 <aside className="lg:w-[50vw]  lg:h-[80vh]  md:h-[48vh] md:w-full w-full my-4 lg:my-0 ">
-                    <img src="src\assets\Images\lumbini.jpg" alt="lumbini" className="w-full h-full object-cover " loading="lazy" />
+                    <img src={lumbini} alt="lumbini" className="w-full h-full object-cover " loading="lazy" />
                 </aside>
             </section>
 
             <section className="flex flex-col lg:flex-row bg-[#f7f7f7]  md:flex-col-reverse">
                 <aside className="lg:w-[50vw]  lg:h-[80vh]  md:h-[48vh] md:w-full my-4 lg:my-0 ">
-                    <img src="src\assets\Images\swambhu.jpg" alt="temple" className="w-full h-full object-cover " loading="lazy" />
+                    <img src={swambhu} alt="temple" className="w-full h-full object-cover " loading="lazy" />
                 </aside>
                 <aside className=" h-[48vh] lg:w-[50vw]  lg:h-[80vh] md:w-full flex items-center justify-center  p-10">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione distinctio mollitia exercitationem amet sed, incidunt quaerat quae nemo eligendi! Omnis!
@@ -63,14 +69,14 @@ const Home = () => {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione distinctio mollitia exercitationem amet sed, incidunt quaerat quae nemo eligendi! Omnis!
                 </aside>
                 <aside className="lg:w-[50vw]  lg:h-[80vh]  md:h-[48vh] md:w-full w-full ">
-                    <img src="src\assets\Images\kumari.jpg" alt="kumari" className="my-4 lg:my-0 w-full h-full object-cover " loading="lazy" />
+                    <img src={kumari} alt="kumari" className="my-4 lg:my-0 w-full h-full object-cover " loading="lazy" />
                 </aside>
             </section>
 
 
             <section className="flex flex-col  lg:flex-row bg-[#f7f7f7]  md:flex-col-reverse">
                 <aside className="lg:w-[50vw]  lg:h-[80vh]  md:h-[48vh] md:w-full: ">
-                    <img src="src\assets\Images\swambhu2.jpg" alt="temple" className="w-full my-4 lg:my-0 h-full object-cover " loading="lazy" />
+                    <img src={swambhu2} alt="temple" className="w-full my-4 lg:my-0 h-full object-cover " loading="lazy" />
                 </aside>
                 <aside className=" h-[48vh] lg:w-[50vw]  lg:h-[80vh] md:w-full flex items-center justify-center text-poppins p-10">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione distinctio mollitia exercitationem amet sed, incidunt quaerat quae nemo eligendi! Omnis!
