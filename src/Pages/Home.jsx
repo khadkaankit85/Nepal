@@ -28,7 +28,7 @@ const Home = () => {
                 <aside className="lg:w-[48vw]  lg:h-[80vh]  md:h-[48vh] md:w-full: ">
                     <img src="src\assets\Images\scene1.jpg" alt="temple" className="w-full h-full object-cover " loading="lazy" />
                 </aside>
-                <aside className=" h-[48vh] lg:w-[48vw]  lg:h-[80vh] md:w-full flex items-center justify-center text-poppins p-10">
+                <aside className=" h-[48vh] lg:w-[48vw]  lg:h-[80vh] md:w-full flex items-center justify-center text-poppins p-10 ">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione distinctio mollitia exercitationem amet sed, incidunt quaerat quae nemo eligendi! Omnis!
                 </aside>
             </section>
